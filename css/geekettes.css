@@ -1,8 +1,8 @@
 body {
-background: #eee;
+      background: #eee;
 }
  
- #insta-login, #insta-logout {    
+ #insta-logout {    
       margin-right: 10px;
       border-radius: 0;
       position: relative;
@@ -23,7 +23,6 @@ background: #eee;
  #nav-right-list li a {
       color: rgba(59,8,103,.8);
  }
-
 
 
  #instafeed {
@@ -69,18 +68,19 @@ background: #eee;
  .overlay:hover {
       background: rgba(52,152,219,.1);
        -moz-box-shadow:    inset 0 0 10px #000000;
--webkit-box-shadow: inset 0 0 10px #000000;
-box-shadow:         inset 0 0 10px #000000;
+      -webkit-box-shadow: inset 0 0 10px #000000;
+      box-shadow:         inset 0 0 10px #000000;
  }
 
  #aboutMe {
-      padding-top: 60px;
+      margin-top: -20px;
+      padding-top: 80px;
       background: #eee;
       padding-bottom: 60px;
       background: url('../img/github-universe.jpg');
       background: url('../img/triangles.png');
       background-size: 100% 100%;
-      min-height: 500px;
+      min-height: 400px;
  }
 
  #aboutMe h1 {
@@ -89,11 +89,18 @@ box-shadow:         inset 0 0 10px #000000;
       font-weight: 100;
  }
 
-#welcome-default > h1 {
-      font-family: "Nixie One", sans-serif;
-      font-weight: 600;
+#aboutMe .welcome-default > h1 {
+      font-family: "Share Tech Mono", sans-serif;
+      font-weight: 700;
       color: white;
+      line-height: 50px;
+      font-size: 40px;
 }
+
+#insta-login.btn-primary {
+      font-weight: 500;
+}
+
 
  #aboutMe .col-sm-6 {
       padding: 30px 10px;

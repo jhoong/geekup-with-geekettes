@@ -154,6 +154,8 @@ body {
       font-family: 'Nixie One', cursive;
       color: lime;
       color: white;
+      text-align: center;
+      padding: 20px;
  }
 
 #github-profile .answer {
